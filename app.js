@@ -2,7 +2,7 @@
 (function() {
     // Part One: create hotel object and write out the offer details
    var hotel = {   // hotel object properties / variables we're protecting
-        name: 'Park',
+        name: 'AllStar Hotel',
         roomRate: 230, // amount in dollar
         discount: 15, // percentage discount
         offerPrice: function() { 

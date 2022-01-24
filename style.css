@@ -9,7 +9,7 @@ body {
     font-family: 'Open Sans', sans-serif;}
 
     h1 {
-        background: #fff url("/background/allstar.png") no-repeat;
+        background: url("/background/logo.png") no-repeat;
         background-position: center;
         width: 310px;
         height: 280px;
@@ -20,8 +20,8 @@ body {
         margin: 0;}
 
         #info {
-            background-color: #fff;
-            color: #000;
+            background-color: #f4e4d7;
+            color: #ffb87a;
             width: 200px;
             padding: 0 15px;
             text-align: center;
@@ -34,6 +34,7 @@ body {
           
           #hotelName {
             text-transform: uppercase;
+            color:#ffb87a;
             text-align: center; 
             font-size: 120%;
             margin-top: 10px;
@@ -56,6 +57,7 @@ body {
             margin: 0;}
           
           #roomRate{
+            font-size: 2em;
             text-decoration: line-through;
             display: inline-block;
             float: left;
